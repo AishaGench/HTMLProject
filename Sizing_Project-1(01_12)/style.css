@@ -1,0 +1,149 @@
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main {
+  height: 30rem;
+  padding-top: 1rem;
+   background-image: url(https://www.thehandcoffee.com/image/cache/catalog/logo%20vb/slide6-1400x500w.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main img {
+  width: 15rem;
+  display: block;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+nav {
+  background-color: brown;
+  color: White;
+    
+    
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+    padding: 0.75rem 1.25rem;
+    
+}
+
+.supporting,
+.rating,
+.gallery,
+.location {
+  margin: 4em auto;
+}
+
+.supporting {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 1rem;
+}
+
+.supporting img {
+   height: 20%;
+    width: 20%;
+    margin-right: 5%;
+}
+
+.rating {
+  background-color: brown;
+  height: 20rem;
+  padding: 0 1rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating h1 {
+font-size: 2.5rem;
+}
+
+.gallery img {
+  display: block;
+  width: 30%;
+  margin: 1.5%;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.location {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+
+.location img {
+width: 100%;
+}
+
+footer {
+  background-color: brown;
+  padding: 0 1rem;
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5em 0;
+  color: white;
+}
+
+@media only screen and
+ (max-width: 960px) {
+  .main {
+      padding-top: 0;      
+  }
+@media(max-width:700px){
+   .supporting img{
+   display: none;
+   font-size: 50px;
+    padding: 0 40px;
+         }   
+     }
+     
+@media(max-width:470px){
+     h1{
+        font-size: 2rem;
+    } 
+    .galery img{
+         margin: 0;
+     }
+    foter nav{
+        display: none;
+    }
+ }
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     

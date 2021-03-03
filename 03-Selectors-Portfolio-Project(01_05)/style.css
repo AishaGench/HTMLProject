@@ -1,0 +1,35 @@
+
+.header img{
+display:block;
+
+}
+.header{
+background-color: royalblue;
+    text-align: center;
+}
+h1{
+   color: azure;
+}
+
+
+.about-me {
+    font-size: 20px;
+    opacity: 70%;
+}
+.title{
+    font-weight: 900;
+}
+body{
+    background-image: url(hypnotize_bg.png);
+    font-family: georgia;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.dolphin {
+   border-radius: 50%;
+    margin: 10px;
+    padding: 20px;
+    border: solid royalblue;
+}

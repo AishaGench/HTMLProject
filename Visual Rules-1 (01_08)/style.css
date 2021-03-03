@@ -1,0 +1,36 @@
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-family: Courier New;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: lightgray;
+    color: green;
+    border-radius: 25px;   
+}
+
+.question {
+    opacity: 0.5;
+    background: url(https://www.w3schools.com/css/mountain.jpg);
+}
+
+.contanier {
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+body {
+    background-image: url(background.png);
+}
+
+#name {
+    font-family: 'Yusei Magic',sans-serif;
+    padding: 2px;
+    color: palevioletred;
+}
